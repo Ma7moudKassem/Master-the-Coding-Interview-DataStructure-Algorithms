@@ -4,6 +4,7 @@
     {
 		public string findMody(string[] arr)
 		{
+	
 			for (int i = 0; i < arr.Length; i++)
 			{
 				if (arr[i] == "mody")
@@ -12,6 +13,7 @@
 				}
 			}
 			return "Ooh Sorry Mody hasn't findrd";
+
 		}
 	}
 }
