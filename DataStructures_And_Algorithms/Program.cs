@@ -118,3 +118,13 @@ MergeTwoSortedArrays.mergingTwoSortedArray(Array1, Array2, Array3,n1,n2);
 for (int i = 0; i < Array3.Length; i++)
     Console.Write(Array3[i]);
 */
+
+using DataStructures_And_Algorithms.DS_Hash_Table;
+
+HashTable hashTable = new HashTable(50);
+
+hashTable.set("Kassem", 1224176036);
+hashTable.set("Ahmed", 1224376036);
+hashTable.set("Esraa", 1224676036);
+
+
