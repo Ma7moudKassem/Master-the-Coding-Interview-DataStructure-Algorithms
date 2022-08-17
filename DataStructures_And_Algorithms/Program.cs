@@ -1,4 +1,5 @@
-﻿////using DataStructures_And_Algorithms.BigO.WhatIsGoodCode;
+﻿
+////using DataStructures_And_Algorithms.BigO.WhatIsGoodCode;
 ////using System.Diagnostics;
 
 ////string[] mody = { "mody" };
@@ -119,6 +120,7 @@ for (int i = 0; i < Array3.Length; i++)
     Console.Write(Array3[i]);
 */
 
+/* ==> HashTable
 using DataStructures_And_Algorithms.DS_Hash_Table;
 
 HashTable hashTable = new HashTable(50);
@@ -126,5 +128,72 @@ HashTable hashTable = new HashTable(50);
 hashTable.set("Kassem", 1224176036);
 hashTable.set("Ahmed", 1224376036);
 hashTable.set("Esraa", 1224676036);
+ */
 
+/*
+ using System.Collections;
+using System.Collections.Specialized;
+
+int[] arr1 = { 3 , 2,1,3};
+int findFirstRecuringNumber(int[] arr)
+{
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        for (int j = i + 1; j < arr.Length; j++)
+        {
+            if (arr[i] == arr[j])
+            {
+                Console.WriteLine(arr[i]);
+                return 0;
+            }
+        }
+    }
+    Console.WriteLine("Undefined");
+    return 0;
+}
+findFirstRecuringNumber(arr1);// O(n^2)
+
+int findFirstRecuringNumber2(int[] arr)
+{
+    Hashtable hashtable = new Hashtable();
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (hashtable.ContainsKey(arr[i]))
+            return arr[i];
+        else
+            hashtable[arr[i]] = arr[i];
+    }
+    return 0;
+
+}// O(n)
+
+Console.WriteLine(findFirstRecuringNumber2(arr1));
+ */
+
+//using Microsoft.VisualBasic.FileIO;
+//using System.Security.Cryptography.X509Certificates;
+
+//object mody = new object();
+//object mody1 = new object();
+//mody = new 
+//{
+//     name = "Kassem",
+//    num = 0123444,
+//};
+//mody1 = mody;
+//Console.WriteLine(mody);
+//Console.WriteLine(mody1);
+
+using DataStructures_And_Algorithms.DS_LinkedList;
+
+MyLinkedList myLinkedList = new MyLinkedList(10);
+
+//myLinkedList.append(20);
+//myLinkedList.append(30);
+//myLinkedList.append(40);
+//myLinkedList.append(50);
+//myLinkedList.insert(3, 99);
+//myLinkedList.remove(0);
+//myLinkedList.printList();
 
