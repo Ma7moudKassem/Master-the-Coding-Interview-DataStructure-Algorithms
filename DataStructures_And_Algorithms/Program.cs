@@ -185,9 +185,9 @@ Console.WriteLine(findFirstRecuringNumber2(arr1));
 //Console.WriteLine(mody);
 //Console.WriteLine(mody1);
 
-using DataStructures_And_Algorithms.DS_LinkedList;
+//using DataStructures_And_Algorithms.DS_LinkedList;
 
-MyLinkedList myLinkedList = new MyLinkedList(10);
+//MyLinkedList myLinkedList = new MyLinkedList(10);
 
 //myLinkedList.append(20);
 //myLinkedList.append(30);
@@ -197,3 +197,10 @@ MyLinkedList myLinkedList = new MyLinkedList(10);
 //myLinkedList.remove(0);
 //myLinkedList.printList();
 
+using DataStructures_And_Algorithms.DS_Stack;
+
+StackArray newStack = new StackArray();
+newStack.push(3);
+newStack.push(5);
+newStack.peek();
+newStack.printStack();
