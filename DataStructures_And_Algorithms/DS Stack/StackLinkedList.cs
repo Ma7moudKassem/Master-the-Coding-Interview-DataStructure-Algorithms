@@ -50,7 +50,7 @@ namespace DataStructures_And_Algorithms.DS_Stack
         public int pop() 
         {
             if (this.top == null)
-            { return -100000; }
+            { return 0; }
             else 
             {
                 StackNode holdingPointer = this.top;

@@ -3,7 +3,7 @@
 ////using System.Diagnostics;
 
 ////string[] mody = { "mody" };
-////string[] manyUsers = { "n" , "Kassem" , "Esraa" , "Ahmed" , "Abdo" };
+////string[] manyUsers = { "n" , "Kassem" , "Ahmed"};
 
 ////FindMody obj = new FindMody();
 
@@ -127,7 +127,6 @@ HashTable hashTable = new HashTable(50);
 
 hashTable.set("Kassem", 1224176036);
 hashTable.set("Ahmed", 1224376036);
-hashTable.set("Esraa", 1224676036);
  */
 
 /*
@@ -197,10 +196,12 @@ Console.WriteLine(findFirstRecuringNumber2(arr1));
 //myLinkedList.remove(0);
 //myLinkedList.printList();
 
-using DataStructures_And_Algorithms.DS_Stack;
+/*  ==> Stack By Array and LinkedList
+ using DataStructures_And_Algorithms.DS_Stack;
 
 StackArray newStack = new StackArray();
 newStack.push(3);
 newStack.push(5);
 newStack.peek();
 newStack.printStack();
+ */

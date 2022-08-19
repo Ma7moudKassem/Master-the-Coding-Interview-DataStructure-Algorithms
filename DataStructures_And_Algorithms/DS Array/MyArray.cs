@@ -15,9 +15,9 @@
         {
             if (data.Length == length)
             {
-                object[] temp = new object[length]; // creates a temp array 
-                Array.Copy(data, temp, length); //copies all data to temp array     
-                data = new object[length + 1]; //increases size of temp array
+                object[] temp = new object[length]; 
+                Array.Copy(data, temp, length);
+                data = new object[length + 1]; 
                 Array.Copy(temp, data, length);
             }
             data[length] = item;
@@ -33,7 +33,7 @@
         }
         public object delete(int index)
         {
-            object itemToDelete = data[index]; // 3==>e
+            object itemToDelete = data[index];
             shiftItems(index);
             return itemToDelete;
 

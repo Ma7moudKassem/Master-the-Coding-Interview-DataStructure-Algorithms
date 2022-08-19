@@ -8,14 +8,13 @@ namespace DataStructures_And_Algorithms.DS_Stack
         public StackArray()
         {
             array = new ArrayList();
-
         }
 
         public int peek()
         {
             if (this.array.Count > 0)
                 return (int)this.array[this.array.Count - 1];
-            return -100000; //returning -100000 if length is 0
+            return 0;
         }
 
         public void push(int value)
@@ -27,7 +26,7 @@ namespace DataStructures_And_Algorithms.DS_Stack
         {
             if (this.array.Count == 0)
             {
-                return -100000;
+                return 0;
             }
             int lastItem = (int)this.array[this.array.Count - 1];
             this.array.RemoveAt(this.array.Count - 1);
