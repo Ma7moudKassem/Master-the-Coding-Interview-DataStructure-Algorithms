@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DataStructures_And_Algorithms.DS_LinkedList
+﻿namespace DataStructures_And_Algorithms.DS_LinkedList
 {
     public class Node
     {

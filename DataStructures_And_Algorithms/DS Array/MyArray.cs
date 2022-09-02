@@ -1,8 +1,7 @@
 ﻿namespace DataStructures_And_Algorithms
 {
     public class MyArray
-    {
-        
+    {     
         public int length;
         private object[] data;
         public MyArray()

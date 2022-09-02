@@ -1,6 +1,4 @@
-﻿using DataStructures_And_Algorithms.DS_LinkedList;
-
-namespace DataStructures_And_Algorithms.DS_Queue
+﻿namespace DataStructures_And_Algorithms.DS_Queue
 {
     class QueueNode
     {
@@ -50,7 +48,7 @@ namespace DataStructures_And_Algorithms.DS_Queue
             if (this.first == null)
             { return -1; };
             if (this.length == 0)
-            { this.last = null};
+            { this.last = null; }
             QueueNode holdingPointer = this.first;
             this.first = this.first.Next;
             this.length--;

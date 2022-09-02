@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace DataStructures_And_Algorithms.DS_Stack
+﻿namespace DataStructures_And_Algorithms.DS_Stack
 {
     public class StackArray
     {

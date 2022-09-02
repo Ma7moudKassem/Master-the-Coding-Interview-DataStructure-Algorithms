@@ -1,6 +1,4 @@
-﻿using DataStructures_And_Algorithms.DS_LinkedList;
-
-namespace DataStructures_And_Algorithms.DS_Stack
+﻿namespace DataStructures_And_Algorithms.DS_Stack
 {
     //(10-->20-->null)
     public class StackNode
@@ -75,6 +73,5 @@ namespace DataStructures_And_Algorithms.DS_Stack
             }
             Console.WriteLine();
         }
-
     }
 }

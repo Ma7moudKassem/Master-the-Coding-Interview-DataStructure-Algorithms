@@ -205,3 +205,70 @@ newStack.push(5);
 newStack.peek();
 newStack.printStack();
  */
+
+/*----> Graph
+ 
+ using DataStructures_And_Algorithms.DS_Graph;
+
+MyGraph graph = new MyGraph();
+
+graph.addVertix(0);
+graph.addVertix(1);
+graph.addVertix(2);
+graph.addVertix(3);
+graph.addVertix(4);
+graph.addVertix(5);
+graph.addVertix(6);
+graph.addEdge(3, 1);
+graph.addEdge(3, 4);
+graph.addEdge(4, 2);
+graph.addEdge(4, 5);
+graph.addEdge(1, 2);
+graph.addEdge(1, 0);
+graph.addEdge(0, 2);
+graph.addEdge(6, 5);
+graph.showConnections();
+ */
+// void printHello()
+//{
+
+
+//    int counter = 0;
+//    counter++;
+//    Console.WriteLine(counter);
+//    //if (counter > 3)
+//    //    Console.WriteLine("Done");
+
+//    printHello();
+//}
+
+//printHello();
+
+
+//using DataStructures_And_Algorithms.Sorting;
+
+//int[] arr = { 1, 13, 4, 5, 2, 0, 6, 27, 8 };
+
+//BubbleSort bubbleSort = new BubbleSort();
+
+//foreach (var item in bubbleSort.Sort(arr))
+//{
+//    Console.WriteLine(item);
+//}
+//Console.WriteLine("sdfdf");
+
+//using DataStructures_And_Algorithms.Sorting;
+//using System;
+
+//InsertionSort insertionSort = new InsertionSort();
+//int[] arr = { 1, 13, 4, 5, 2, 0, 6, 27, 8 };
+//foreach (var item in insertionSort.Sort(arr))
+//{
+//    Console.Write(item+"-");
+//}
+
+//===> Searching 
+//===> Linear Search
+
+List<string> names = new List<string> {"ahmed","kassem","abdo","esraa" };
+    Console.WriteLine(names.FindLast("esraa"));
